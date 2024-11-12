@@ -1,0 +1,34 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "examplemod:blocks/myblock_particle",
+    "down": "examplemod:blocks/myblock_down",
+    "up": "examplemod:blocks/myblock_up",
+    "east": "examplemod:blocks/myblock_east",
+    "west": "examplemod:blocks/myblock_west",
+    "north": "examplemod:blocks/myblock_particle",
+    "south": "examplemod:blocks/myblock_south"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ -100, 90, 180 ],
+      "translation": [ 2, 0.5, 5 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ -100, 0, 180 ],
+      "translation": [ 2, 0.5, 5 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 1, 4, 3],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 1, 4, 3],
+      "scale": [ 1 ,1, 1 ]
+    }
+  }
+}

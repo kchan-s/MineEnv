@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:custom/root",
+  "display": {
+    "icon": {
+      "item": "examplemod:hi_potion"
+    },
+    "title": {
+      "translate": "advancements.custom.hi_potion.title"
+    },
+    "description": {
+      "translate": "advancements.custom.hi_potion.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "examplemod:textures/blocks/upa.png"
+  },
+  "criteria": {
+    "hi_potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "examplemod:hi_potion"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hi_potion"
+    ]
+  ]
+}

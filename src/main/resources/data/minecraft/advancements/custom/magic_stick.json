@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:custom/root",
+  "display": {
+    "icon": {
+      "item": "examplemod:magic_stick"
+    },
+    "title": {
+      "translate": "advancements.custom.magic_stick.title"
+    },
+    "description": {
+      "translate": "advancements.custom.magic_stick.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "examplemod:textures/blocks/upa.png"
+  },
+  "criteria": {
+    "magic_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "examplemod:magic_stick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "magic_stick"
+    ]
+  ]
+}

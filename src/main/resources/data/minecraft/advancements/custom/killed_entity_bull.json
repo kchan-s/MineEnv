@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:custom/hi_potion",
+  "display": {
+    "icon": {
+      "item": "examplemod:bull_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.custom.killed_entity_bull.title"
+    },
+    "description": {
+      "translate": "advancements.custom.killed_entity_bull.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "examplemod:textures/blocks/upa.png"
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "criteria": {
+    "killed_entity_bull": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "examplemod:bull"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_entity_bull"
+    ]
+  ]
+}

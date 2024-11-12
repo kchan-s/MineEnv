@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:custom/magic_stick",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "advancements.custom.netherite_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.custom.netherite_ingot.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "examplemod:textures/blocks/upa.png"
+  },
+  "criteria": {
+    "netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_ingot"
+    ]
+  ]
+}

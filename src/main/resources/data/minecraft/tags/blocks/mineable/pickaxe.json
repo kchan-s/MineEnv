@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "examplemod:block_myblock",
+    "examplemod:block_fortune"
+  ]
+}

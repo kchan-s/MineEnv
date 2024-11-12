@@ -1,0 +1,6 @@
+{
+  "block.examplemod.block_myblock": "マイブロック",
+  "item.examplemod.my_sword": "剣",
+  "advancements.custom.root.title": "オリジナル",
+  "advancements.custom.root.description": "マイブロックを作る"
+}

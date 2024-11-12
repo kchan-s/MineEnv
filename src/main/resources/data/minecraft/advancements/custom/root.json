@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "examplemod:block_myblock"
+    },
+    "title": {
+      "translate": "advancements.custom.root.title"
+    },
+    "description": {
+      "translate": "advancements.custom.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "examplemod:textures/blocks/upa.png"
+  },
+  "criteria": {
+    "myblock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "examplemod:block_myblock"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "myblock"
+    ]
+  ]
+}

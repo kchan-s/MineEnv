@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:custom/root",
+  "display": {
+    "icon": {
+      "item": "examplemod:block_fortune"
+    },
+    "title": {
+      "translate": "advancements.custom.block_fortune.title"
+    },
+    "description": {
+      "translate": "advancements.custom.block_fortune.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "examplemod:textures/blocks/upa.png"
+  },
+  "criteria": {
+    "fortune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "examplemod:block_fortune"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fortune"
+    ]
+  ]
+}
